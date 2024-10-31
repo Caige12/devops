@@ -9,6 +9,6 @@ describe('Regular factorial value', function() {
 describe('First two terms', function() {
   it('should return 1 for first two terms of fac(0) fac(1)', function() {
       assert.strictEqual(main.factorial(0), 1);
-      assert.strictEqual(main.fibonacci(1), 1);
+      assert.strictEqual(main.factorial(1), 1);
     });
 });

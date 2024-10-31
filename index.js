@@ -1,5 +1,9 @@
 exports.factorial = function(n) {
-    if(n==0 || n==1)
-        return n;
-    return this.factorial(n-1) * this.factorial(n-2);
+    if(n < 0)
+        return -1;
+    else if(n == 0 || n==1)
+        return 1;
+    else{
+        return n * this.factorial(n-1);
+    } 
 }
